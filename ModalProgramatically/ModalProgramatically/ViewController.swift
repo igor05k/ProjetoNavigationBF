@@ -15,5 +15,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func button(_ sender: Any) {
+        present(SecondViewController(), animated: true)
+    }
 }
 
